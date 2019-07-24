@@ -1,0 +1,21 @@
+{
+    "name": "sociabili/ssc-resources",
+    "description": "SSC Charleroi",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Redouane FARIH",
+            "email": "redouane.farih@cpascharleroi.be"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "SCC\\Resources\\" : "Models"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    }
+}
